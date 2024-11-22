@@ -1,0 +1,104 @@
+    1  gpg --full-generate-key
+    2  gpg --list-keys
+    3  gpg --list-secret-keys
+    4  gpg --output doc.gpg --export 00140019@uca.edu.sv
+    5* gpg --armor --output doc.asc --export my/
+    6  gpg --export-secret-keys --armor 00140019@uca.edu.sv > ./my-priv-gpg-key.asc
+    7  gpg --import ~/Downloads/00140019@uca.edu.sv.gpg
+    8  gpg --import ~/Downloads/key.gpg
+    9  gpg --import ~/Downloads/my-priv-gpg-key.gpg
+   10  gpg --import ~/Downloads/.gpg
+   11  cd ~/Downloads
+   12  cd ~/claves
+   13  ls
+   14  echo import.gpg
+   15  ls
+   16  cd ~/
+   17  ls
+   18  cd ~/import.gpg
+   19  mkdir Downloads
+   20  cd Downloads
+   21  mkdir import.gpg
+   22  ls
+   23  cd ..
+   24  cd Downloads
+   25  cd import.gpg
+   26  cd ..
+   27  curl -o import.gpg https://github.com/Pyload901/llaves.git/import.gpg
+   28  ls
+   29  gpg --import /home/Downloads/import.gpg
+   30  cd Downloads
+   31  cd import.gpg
+   32  pwd
+   33  cd ..
+   34  gpg --import /home/uca/Downloads/import.gpg
+   35  curl -o import.gpg https://github.com/Pyload901/llaves.git/import.gpg
+   36  gpg --import /home/uca/Downloads/import.gpg
+   37  cd Downloads
+   38  cd import.gpg
+   39  cd ..
+   40  cat import.gpg
+   41  import.txt
+   42  nano import.txt
+   43  curl -o import.gpg https://github.com/Pyload901/llaves.git/import.txt
+   44  cd ..
+   45  gpg --import /home/uca/Downloads/import.txt
+   46  gpg --import /home/uca/Downloads/import.gpg
+   47  gpg --import Downloads/import.gpg
+   48  cat import.gpg
+   49  cd Downloads
+   50  curl -o import.gpg https://github.com/Pyload901/llaves.git/import.gpg
+   51  cd ..
+   52  gpg --import import.gpg
+   53  curl -o import.gpg https://github.com/Pyload901/llaves.git
+   54  gpg --import /home/uca/Downloads/import.gpg
+   55  ls
+   56  cd Downloads
+   57  ls
+   58  cd import.gpg
+   59  gpg --import /home/uca/Downloads/import.gpg
+   60  cd ..
+   61  gpg --import /home/uca/Downloads/import.gpg
+   62* curl -o https://github.com/Pyload901/llaves.git
+   63* gpg --import 
+   64  ls
+   65  mkdir llave.txt
+   66  curl -o llave.txt https://github.com/Pyload901/llaves.git
+   67  gpg --import /llave.txt
+   68  cd llave.txt
+   69  pwd
+   70  cd ..
+   71  cat llave.txt
+   72  touch llaveimport.txt
+   73  ls
+   74  cat llaveimport.txt
+   75  curl -o llaveimport.txt https://github.com/Pyload901/llaves.git
+   76  gpg --import /llaveimport.txt
+   77  cat llave.txt
+   78  cat llaveimport.txt
+   79  gpg --import /llaveimport.txt
+   80  gpg --import /home/uca/llaveimport.txt
+   81  gpg --import ~/llaveimport.txt
+   82  cd llaveimport.txt
+   83  gpg --import /llaveimport.txt/https://github.com/Pyload901/llaves.git
+   84  gpg --import ~/llaveimport.txt/https://github.com/Pyload901/llaves.git
+   85  cd llaveimport.txt
+   86  gpg --import /https://github.com/Pyload901/llaves.git
+   87  curl -o llaveimport.txt https://github.com/Pyload901/llaves.git/raw/main/marioKey.asc
+   88  gpg --import ~/llaveimport.txt
+   89  wget llaveimport.txt https://github.com/Pyload901/llaves.git/raw/main/marioKey.asc -O ~/llavesimport.txt
+   90  gpg --import ~/llaveimport.txt
+   91  wget llaveimport.txt https://github.com/Pyload901/llaves.git/raw/main/marioKey.asc -O ~/llavesimport.txt
+   92  git clone https://github.com/Pyload901/llaves.git
+   93  ls
+   94  cd llaves
+   95  ls
+   96  gpg --import davidKey
+   97  gpg --list-keys
+   98  gpg --edit--key davidKey
+   99  gpg --edit--key 00060021@uca.edu.sv
+  100  gpg --edit-key 00060021@uca.edu.sv
+  101  gpg --list-key
+  102  gpg --list-keys
+  103  cd ..
+  104  gpg --output doc.gpg --symmetric doc
